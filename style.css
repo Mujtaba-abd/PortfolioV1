@@ -6,9 +6,9 @@
 }
 
 :root{
-    --background: #070F2B;
-    --primeary-color: #1B1A55;
-    --secondary-color: #535C91;
+    --background: #0C0C0C;
+    --primeary-color: #F2613F;
+    --secondary-color: #9B3922;
 }
 
 body{
@@ -16,13 +16,29 @@ body{
     padding: 14px;
 }
 header{
-    margin-bottom: 18px;
+    margin-bottom: 28px;
     display: flex;
     justify-content: space-between;
 }
-h1 ,a {
+a {
     color: var(--primeary-color);
+    text-decoration: none;
 } 
 h1{
     font-size: 24px;
+}
+h1, p{
+    color: var(--secondary-color);
+}
+
+#title{
+    margin-bottom: 44px;
+}
+
+#pfp{
+    margin-bottom: 44px;
+}
+#Pro{
+    color: var(--primeary-color);
+    margin-top: 42px;
 }
