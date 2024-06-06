@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+    --background: #070F2B;
+    --primeary-color: #1B1A55;
+    --secondary-color: #535C91;
+}
+
+body{
+    background-color: var(--background);
+    padding: 14px;
+}
+header{
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+h1 ,a {
+    color: var(--primeary-color);
+} 
+h1{
+    font-size: 24px;
+}
