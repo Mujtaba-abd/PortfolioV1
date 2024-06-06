@@ -7,8 +7,8 @@
 
 :root{
     --background: #0C0C0C;
-    --primeary-color: #F2613F;
-    --secondary-color: #9B3922;
+    --primeary-color: #9B3922;
+    --secondary-color:  #F2613F;
 }
 
 body{
@@ -41,4 +41,29 @@ h1, p{
 #Pro{
     color: var(--primeary-color);
     margin-top: 42px;
+    margin-bottom: 18px;
+}
+#pro-img{
+    width: 140px;
+}
+#project1{
+    display: flex;
+}
+#project-img{
+    display: flex;
+}
+#links{
+    margin-top: -21px;
+}
+#links a{
+    margin: 18px;
+    margin-left: 0px;
+}
+#project2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+}
+#lin{
+    margin-top: 15px;
 }
